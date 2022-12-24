@@ -1,0 +1,825 @@
+
+/* ТЕЛО САЙТА */
+
+body {
+    background:rgba(255, 255, 255, 0.863);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
+}
+
+/* ОСНОВНАЯ ШАПКА САЙТА */
+
+.header-top {
+    position: fixed;
+    display: flex;
+    background: url("");
+    background-color: #494949;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 
+                0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.header {
+    position: relative;
+    display: block;
+    margin: auto;
+    background-color: #494949;
+    width: 1100px;
+    height: 50px;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 38px;
+    line-height: 35px;
+    font-size: 25px;
+    margin: 3px 3px;
+    padding: 3px;
+    letter-spacing: 5px;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    float: right;
+    height: 50px;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-sety {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 130px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.block-1 {
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.block-2 {
+    text-align: center;
+    position: relative;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.block-3 {
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.block-1-image {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+}
+
+.block-1-image:hover {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 5px;
+}
+
+/* НИЖНЯЯ ШАПКА */
+
+.header-bottom {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #494949;
+}
+
+.header-slogan {
+    position: relative;
+    font-family: "LatoWeb", sans-serif;
+    top: 100px;
+    width: 1100px;
+    height: 250px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.slogan {
+    position: relative;
+    color: #fff!important;
+    text-align: center;
+    width: 1060px;
+    height: 60px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
+}
+
+.under-slogan {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    width: 1060px;
+    height: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+/* ОСНОВНОЙ БЛОК */
+
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F0F0F0;;
+    width: 100%;
+    height: 100%;
+}
+
+.index-third-stand {
+    position: relative;
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid rgb(48, 46, 46);
+    top: -200px;
+}
+
+.index-third-image {
+    position: relative;
+    width: 400px;
+    height: 470px;
+}
+
+.index-third-image-1 {
+    position: relative;
+    width: 400px;
+    height: 470px;
+}
+
+.index-third-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+}
+
+.test-slogan {
+    position: relative;
+    display: flex;
+    background-color: rgba(82, 218, 64, 0.2);
+    color: black;
+    width: 300px;
+    height: 35px;
+    top: 50px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.test-slogan-text {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 25px;
+}
+
+.test-slogan-image {
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+.test-slogan:hover {
+    position: relative;
+    display: flex;
+    background-color: rgba(82, 218, 64);
+    width: 230px;
+    height: 35px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+}
+
+.test-slogan::before,
+.test-slogan::after {
+    content: "";
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    transition: all 0.6s;
+}
+
+.test-slogan::before {
+    top: -3px;
+    left: -3px;
+    border-top: 6px solid rgba(82, 218, 64, 0.7);
+    border-left: 6px solid rgba(82, 218, 64, 0.7);
+}
+
+.test-slogan::after {
+    bottom: -3px;
+    right: -3px;
+    border-bottom: 6px solid rgba(82, 218, 64, 0.7);
+    border-right: 6px solid rgba(82, 218, 64, 0.7);
+}
+
+.test-slogan:hover::before,
+.test-slogan:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: rgba(82, 218, 64, 0.7);
+    transition: all 0.7s;
+}
+
+.index-third-heading {
+    position: relative;
+    width: 600px;
+    height: 70px;
+    text-align: center;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    border-bottom: 3px solid green;
+}
+
+.index-third-text {
+    position: relative;
+    width: 700px;
+    height: 250px;
+}
+
+.index-third-text-under {
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 150px;
+    padding: 60px 10px 10px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.index-third-heading::before,
+.index-third-heading::after {
+    content: "";
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    transition: all 0.6s;
+}
+
+.index-third-heading::after {
+    bottom: -3px;
+    left: -3px;
+    border-bottom: 3px solid green;
+}
+
+.index-third-heading:hover::before,
+.index-third-heading:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: rgba(64, 92, 218);
+    transition: all 1s;
+}
+
+.index-time {
+    color: rgb(39, 156, 23);
+    transition: 0.7s;
+}
+
+/* СТЕНД 1 */
+
+.index-first-stand {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    top: -200px;
+}
+
+.index-first-content {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 100px 0 0 150px;
+    padding: 10px 10px 10px 10px;
+}
+
+.index-first-heading {
+    position: relative;
+    color: black;
+    width: 460px;
+    height: 60px;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.index-first-text {
+    position: relative;
+    width: 460px;
+    height: 400px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.index-first-text-txt {
+    margin: 30px 0 30px 0;
+}
+
+.index-first-image {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    margin: 100px 0 0 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.index-first-image-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* ПРОМЕЖУТОЧНЫЙ ТЕСТ */
+
+.index-first-test {
+    position: relative;
+    display: flex;
+    background-color: rgba(101, 204, 88, 0.37);
+    color: black;
+    width: 250px;
+    top: -100px;
+    height: 35px;
+    margin: 20px auto;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.test-slogan-text {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 25px;
+}
+
+.test-slogan-image {
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+.index-first-test:hover {
+    position: relative;
+    display: flex;
+    background-color: rgba(82, 218, 64, 0.795);
+    width: 250px;
+    height: 35px;
+    margin: 20px auto;
+    padding: 5px 5px 5px 5px;
+}
+
+.index-first-test::before,
+.index-first-test::after {
+    content: "";
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    transition: all 0.6s;
+}
+
+.index-first-test::after {
+    bottom: -3px;
+    left: -3px;
+    border-bottom: 3px solid rgba(0, 128, 0, 0);
+}
+
+.index-first-test:hover::before,
+.index-first-test:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: black;
+    transition: all 1s;
+}
+
+/* СТЕД 2 */
+
+.index-second-stand {
+    position: relative;
+    background-color: #635f5f4d;
+    padding: 150px 0px 100px;
+    width: 100%;
+    height: 400px;
+}
+
+.index-second-container {
+    position: relative;
+    width: 1110px;
+    height: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.index-second-heading {
+    position: relative;
+    width: 1140px;
+    height: 80px;
+}
+
+.index-second-heading-lower {
+    position: relative;
+    width: 920px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.index-second-heading-name {
+    position: relative;
+    text-align: center;
+    width: 890px;
+    height: 47px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 34px;
+    line-height: 48px;
+}
+
+.index-second-heading-subtitle {
+    position: relative;
+    text-align: center;
+    width: 920px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.index-second-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+
+}
+
+.index-second-content-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 220px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 3rem;
+}
+
+.index-second-content-1-image {
+    position: relative;
+    width: 76px;
+    height: 76px;
+}
+
+.index-second-content-1-heading {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "LatoWebLight", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.index-second-content-1-subtitle{
+    position: relative;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "LatoWebLight", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+
+
+.index-second-content-2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 220px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 3rem;
+}
+
+.index-second-content-2-image {
+    position: relative;
+    width: 76px;
+    height: 76px;
+}
+
+.index-second-content-2-heading {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "LatoWebLight", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.index-second-content-2-subtitle{
+    position: relative;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "LatoWebLight", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.index-second-content-3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 220px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 3rem;
+}
+
+.index-second-content-3-image {
+    position: relative;
+    width: 76px;
+    height: 76px;
+}
+
+.index-second-content-3-heading {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "LatoWebLight", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.index-second-content-3-subtitle{
+    position: relative;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "LatoWebLight", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+/* СТЕД 3 */
+
+.tindex-hird-stand {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+/* ПОДВАЛ САЙТА */
+
+.footer {
+    position: relative;
+    background: rgb(70, 69, 69);
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+}
+
+.son-footer {
+    position: relative;
+    display: flex;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    width: 800px;
+}
+
+.tech-support {
+    position: relative;
+    float: left;
+    width: 400px;
+    color: rgb(255, 255, 255);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.post-social {
+    position: relative;
+    float: right;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+@media (max-width: 1100px) {
+    .header-top{
+        width: 100%;
+    }
+
+    .header {
+        width: 700px;
+        margin: auto;
+        display: no;
+    }
+
+    .header-slogan {
+        width: 900px;
+    }
+
+    .slogan {
+        width: 900px;
+        font-size: 30px;
+        margin: auto;
+    }
+    
+    .under-slogan {
+        width: 900px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin: auto;
+    }
+
+    .logo {
+        width: 120px;
+        font-size: 18px;
+    }
+
+    .menu {
+        width: 300px;
+
+    }
+
+    .menu-sety {
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .index-third-stand{
+        width: 100%;
+    }
+
+    .index-third-text {
+        width: 100%;
+    }
+
+    .index-third-heading{
+        width: 400px;
+        font-size: 18px;
+    }
+
+    .index-third-image {
+        width: 350px;
+        height: 420px;
+    }
+
+    .index-second-container{
+        width: 900px;
+    }
+
+    .index-second-heading{
+        width: 900px;
+    }
+
+    .index-second-heading-lower {
+        width: 100%;
+    }
+
+    .index-second-heading-name {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .index-second-heading-subtitle {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .index-second-content-1-heading {
+        font-size: 16px;
+    }
+
+    .index-second-content-1-subtitle {
+        font-size: 12px;
+    }
+
+    .index-second-content-2-heading {
+        font-size: 16px;
+    }
+
+    .index-second-content-2-subtitle {
+        font-size: 12px;
+    }
+
+    .index-second-content-3-heading {
+        font-size: 16px;
+    }
+
+    .index-second-content-3-subtitle {
+        font-size: 12px;
+    }
+
+    }
